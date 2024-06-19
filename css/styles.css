@@ -180,6 +180,30 @@ main {
     cursor: pointer;
 }
 
+/* Sobre */
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sobre-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--bg2);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.sobre-text h2, h3 {
+    color: var(--laranja);
+}
+
 /* Faça parte */
 
 .faca-parte {
