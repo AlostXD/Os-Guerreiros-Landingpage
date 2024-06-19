@@ -180,6 +180,7 @@ main {
     cursor: pointer;
 }
 
+
 /* Sobre */
 
 .sobre {
@@ -258,6 +259,105 @@ main {
 .aplicar:hover {
     transform: scale(1.1);
 }
+
+/* Patrocínio */
+
+.patrocinios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.patrocinadores li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--bg2);
+    padding: 20px;
+    border-radius: 12px;
+    width: 30%;
+    transition: all 0.5s ease;
+}
+
+.patrocinadores li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: var(--laranja);
+}
+
+.patrocinadores li a {
+    text-decoration: none;
+}
+
+.patreon-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    background-color: var(--bg2);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.patreon-item img {
+    width: 60%;
+}
+
+.patrocinios-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+dialog {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--bg2);
+    border-radius: 12px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ser-patrocinador, .apoiar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.patreon-modal {
+    padding: 20px;
+}
+
 
 /* Servidores */
 
@@ -384,6 +484,101 @@ main {
     font-size: 24px;
 }
 
+/* Equipe Headstaff */
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.equipe h1 {
+    color: var(--laranja);
+}
+
+.equipe-cards {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.equipe-card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--laranja);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.equipe-card-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.equipe-card-item img {
+    width: 50%;
+    border-radius: 500px;
+}
+
+.head-staff-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.img-headstaff {
+    width: 100%;
+    padding: 40px;
+}
+
+.head-staff-member-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head-staff-member button {
+    all: unset;
+    background-color: var(--laranja);
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    width: 50%;
+}
+
+.head-staff-member button:hover {
+    transform: scale(1.1);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes-sociais li {
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.redes-sociais li:hover {
+    transform: scale(1.1);
+}
 
 
 /* F.A.Q */
