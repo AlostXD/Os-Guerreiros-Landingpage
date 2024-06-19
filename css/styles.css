@@ -180,6 +180,61 @@ main {
     cursor: pointer;
 }
 
+/* Faça parte */
+
+.faca-parte {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.faca-parte-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--bg2);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.faca-parte-text h2 {
+    color: var(--laranja);
+}
+
+.faca-parte-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faca-parte-text strong {
+    font-size: 20px;
+}
+
+.faca-parte-text a {
+    text-decoration: none;
+    color: blue;
+}
+
+.aplicar {
+    all: unset;
+    background-color: var(--laranja);
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff !important;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.aplicar:hover {
+    transform: scale(1.1);
+}
+
 /* Servidores */
 
 .servidores {
