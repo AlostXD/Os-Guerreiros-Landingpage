@@ -383,3 +383,50 @@ main {
     font-weight: bold;
     font-size: 24px;
 }
+/* Contatos */
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.contatos h1 {
+    color: var(--laranja);
+}
+
+.contatos-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contatos-left, .contatos-right {
+    background-color: #3C3C3C;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.contatos-left h3, .contatos-right h3, .contatos-left span, .contatos-right span {
+    color: var(--laranja);
+}
+
+.contatos-left ul, .contatos-right ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contatos-left a, .contatos-right a {
+    color: #fff;
+    text-decoration: underline;
+}
