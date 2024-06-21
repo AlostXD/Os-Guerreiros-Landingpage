@@ -110,3 +110,13 @@ equipe.forEach(element => {
     `;
     headstaffs.appendChild(hstaffmember);
 });
+
+//F.A.Q
+const accordions = document.querySelectorAll('.accordion')
+
+accordions.forEach(accordion => {
+    accordion.addEventListener('click', () => {
+        const body = accordion.querySelector('.body-accor');
+        body.classList.toggle('active')
+    })
+})
